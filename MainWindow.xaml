@@ -1,0 +1,17 @@
+﻿<Window x:Class="TFE.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TFE"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel x:Name="sta1">
+            <Label Content="МАРДЖАНДЖА" ></Label>
+            <Button x:Name="but1" Content="Вход в систему учёта" Width="150" Height="20" Margin=" 0, 300, 600, 0 "></Button>
+            <Button x:Name="but2" Content="Выход" Width="150" Height="20" Margin=" 0, 10, 600, 0 "></Button>
+            
+        </StackPanel> 
+    </Grid>
+</Window>
