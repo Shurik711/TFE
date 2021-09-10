@@ -10,30 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace TFE
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для Win1.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Win1 : Window
     {
-        public MainWindow()
+        public Win1()
         {
             InitializeComponent();
-        }
-
-        private void but2_Click(object sender, RoutedEventArgs e)
-        {
-            Application.Current.Shutdown();
-        }
-
-        private void but1_Click(object sender, RoutedEventArgs e)
-        {
-           Win1 Win1 = new Win1();
-           Win1.Show();
         }
     }
 }
